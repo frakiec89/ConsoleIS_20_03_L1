@@ -97,6 +97,10 @@ namespace ConsoleIS_20_03_L1
                 $" У него осталось  {HitPoint} hp";
         }
 
+        /// <summary>
+        /// проверяет  хп  у  коробя
+        /// </summary>
+        /// <returns> да  если живой </returns>
        public bool IsDrown()
         {
             if (HitPoint > 0) return true;
